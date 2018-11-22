@@ -1,0 +1,45 @@
+2018-06-12 15:06:23,163 [main] DEBUG - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2018-06-12 15:06:23,163 [main] DEBUG - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2018-06-12 15:06:23,179 [main] DEBUG - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2018-06-12 15:06:23,179 [main] DEBUG - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2018-06-12 15:06:23,179 [main] DEBUG - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohammed.azeem.pasha/.m2/repository/com/relevantcodes/extentreports/2.41.1/extentreports-2.41.1.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2018-06-12 15:11:32,686 [main] DEBUG - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2018-06-12 15:11:32,686 [main] DEBUG - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2018-06-12 15:11:32,686 [main] DEBUG - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2018-06-12 15:11:32,686 [main] DEBUG - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2018-06-12 15:11:32,686 [main] DEBUG - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohammed.azeem.pasha/.m2/repository/com/relevantcodes/extentreports/2.41.1/extentreports-2.41.1.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2018-06-12 15:14:28,835 [main] DEBUG - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2018-06-12 15:14:28,839 [main] DEBUG - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2018-06-12 15:14:28,843 [main] DEBUG - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2018-06-12 15:14:28,844 [main] DEBUG - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2018-06-12 15:14:28,844 [main] DEBUG - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohammed.azeem.pasha/.m2/repository/com/relevantcodes/extentreports/2.41.1/extentreports-2.41.1.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2018-06-12 15:16:11,476 [main] DEBUG - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2018-06-12 15:16:11,476 [main] DEBUG - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2018-06-12 15:16:11,476 [main] DEBUG - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2018-06-12 15:16:11,476 [main] DEBUG - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2018-06-12 15:16:11,476 [main] DEBUG - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohammed.azeem.pasha/.m2/repository/com/relevantcodes/extentreports/2.41.1/extentreports-2.41.1.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2018-06-12 15:17:57,252 [main] DEBUG - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2018-06-12 15:17:57,252 [main] DEBUG - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2018-06-12 15:17:57,252 [main] DEBUG - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2018-06-12 15:17:57,252 [main] DEBUG - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2018-06-12 15:17:57,252 [main] DEBUG - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohammed.azeem.pasha/.m2/repository/com/relevantcodes/extentreports/2.41.1/extentreports-2.41.1.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2018-06-12 18:00:54,173 [main] DEBUG - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2018-06-12 18:00:54,173 [main] DEBUG - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2018-06-12 18:00:54,189 [main] DEBUG - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2018-06-12 18:00:54,189 [main] DEBUG - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2018-06-12 18:00:54,189 [main] DEBUG - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohammed.azeem.pasha/.m2/repository/com/relevantcodes/extentreports/2.41.1/extentreports-2.41.1.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2018-06-12 18:06:19,510 [main] DEBUG - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2018-06-12 18:06:19,510 [main] DEBUG - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2018-06-12 18:06:19,510 [main] DEBUG - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2018-06-12 18:06:19,510 [main] DEBUG - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2018-06-12 18:06:19,510 [main] DEBUG - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohammed.azeem.pasha/.m2/repository/com/relevantcodes/extentreports/2.41.1/extentreports-2.41.1.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2018-06-12 18:07:56,287 [main] DEBUG - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2018-06-12 18:07:56,288 [main] DEBUG - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2018-06-12 18:07:56,288 [main] DEBUG - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2018-06-12 18:07:56,288 [main] DEBUG - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2018-06-12 18:07:56,288 [main] DEBUG - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohammed.azeem.pasha/.m2/repository/com/relevantcodes/extentreports/2.41.1/extentreports-2.41.1.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2018-06-12 18:11:58,116 [main] DEBUG - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2018-06-12 18:11:58,116 [main] DEBUG - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2018-06-12 18:11:58,116 [main] DEBUG - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2018-06-12 18:11:58,116 [main] DEBUG - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2018-06-12 18:11:58,116 [main] DEBUG - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/mohammed.azeem.pasha/.m2/repository/com/relevantcodes/extentreports/2.41.1/extentreports-2.41.1.jar!/com/relevantcodes/extentreports/view/Extent.ftl"

@@ -1,0 +1,40 @@
+2018-10-22 16:25:18,418 [main] DEBUG - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2018-10-22 16:25:18,423 [main] DEBUG - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2018-10-22 16:25:18,425 [main] DEBUG - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2018-10-22 16:25:18,426 [main] DEBUG - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2018-10-22 16:25:18,427 [main] DEBUG - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/telugu.sree.vidya/.m2/repository/com/relevantcodes/extentreports/2.41.1/extentreports-2.41.1.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2018-10-22 16:39:07,218 [main] DEBUG - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2018-10-22 16:39:07,219 [main] DEBUG - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2018-10-22 16:39:07,221 [main] DEBUG - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2018-10-22 16:39:07,222 [main] DEBUG - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2018-10-22 16:39:07,223 [main] DEBUG - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/telugu.sree.vidya/.m2/repository/com/relevantcodes/extentreports/2.41.1/extentreports-2.41.1.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2018-10-22 16:41:18,553 [main] DEBUG - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2018-10-22 16:41:18,555 [main] DEBUG - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2018-10-22 16:41:18,556 [main] DEBUG - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2018-10-22 16:41:18,556 [main] DEBUG - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2018-10-22 16:41:18,556 [main] DEBUG - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/telugu.sree.vidya/.m2/repository/com/relevantcodes/extentreports/2.41.1/extentreports-2.41.1.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2018-10-22 16:42:24,763 [main] DEBUG - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2018-10-22 16:42:24,766 [main] DEBUG - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2018-10-22 16:42:24,768 [main] DEBUG - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2018-10-22 16:42:24,769 [main] DEBUG - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2018-10-22 16:42:24,769 [main] DEBUG - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/telugu.sree.vidya/.m2/repository/com/relevantcodes/extentreports/2.41.1/extentreports-2.41.1.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2018-10-22 17:01:02,774 [main] DEBUG - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2018-10-22 17:01:02,774 [main] DEBUG - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2018-10-22 17:01:02,774 [main] DEBUG - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2018-10-22 17:01:02,774 [main] DEBUG - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2018-10-22 17:01:02,774 [main] DEBUG - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/telugu.sree.vidya/.m2/repository/com/relevantcodes/extentreports/2.41.1/extentreports-2.41.1.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2018-10-22 17:03:24,987 [main] DEBUG - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2018-10-22 17:03:24,987 [main] DEBUG - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2018-10-22 17:03:24,987 [main] DEBUG - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2018-10-22 17:03:24,987 [main] DEBUG - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2018-10-22 17:03:24,987 [main] DEBUG - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/telugu.sree.vidya/.m2/repository/com/relevantcodes/extentreports/2.41.1/extentreports-2.41.1.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2018-10-22 17:06:18,801 [main] DEBUG - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2018-10-22 17:06:18,803 [main] DEBUG - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2018-10-22 17:06:18,806 [main] DEBUG - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2018-10-22 17:06:18,807 [main] DEBUG - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2018-10-22 17:06:18,808 [main] DEBUG - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/telugu.sree.vidya/.m2/repository/com/relevantcodes/extentreports/2.41.1/extentreports-2.41.1.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2018-10-22 17:08:03,203 [main] DEBUG - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2018-10-22 17:08:03,205 [main] DEBUG - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2018-10-22 17:08:03,207 [main] DEBUG - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2018-10-22 17:08:03,209 [main] DEBUG - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2018-10-22 17:08:03,209 [main] DEBUG - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/telugu.sree.vidya/.m2/repository/com/relevantcodes/extentreports/2.41.1/extentreports-2.41.1.jar!/com/relevantcodes/extentreports/view/Extent.ftl"

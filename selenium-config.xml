@@ -1,0 +1,150 @@
+<selenium-config>
+
+	<name value="iPhone 6s Simulator" for="browser" type="saucelabs">
+		<appiumVersion>1.5.3</appiumVersion>
+		<deviceName>iPhone 6s Simulator</deviceName>
+		<deviceOrientation>portrait</deviceOrientation>
+		<platformVersion>9.1</platformVersion>
+		<platformName>iOS</platformName>
+		<browserName>Safari</browserName>
+	</name>
+
+	<name value="iPhone 5s Simulator" for="browser" type="saucelabs">
+		<appiumVersion>1.6.0</appiumVersion>
+		<deviceName>Google Nexus 7C Emulator</deviceName>
+		<deviceOrientation>portrait</deviceOrientation>
+		<platformVersion>10.0</platformVersion>
+		<platformName>iOS</platformName>
+		<browserName>Safari</browserName>
+	</name>
+
+	<name value="Samsung Galaxy S3 Emulator" for="browser" type="saucelabs">
+		<appiumVersion>1.5.3</appiumVersion>
+		<deviceName>Samsung Galaxy S3 Emulator</deviceName>
+		<deviceOrientation>portrait</deviceOrientation>
+		<browserName>Browser</browserName>
+		<platformVersion>4.4</platformVersion>
+		<platformName>Android</platformName>
+	</name>
+
+	<name value="iPhone 6s Device" for="browser" type="saucelabs">
+		<appiumVersion>1.5.3</appiumVersion>
+		<deviceName>iPhone 6s Device</deviceName>
+		<deviceOrientation>portrait</deviceOrientation>
+		<browserName>Safari</browserName>
+		<platformVersion>9.3</platformVersion>
+		<platformName>iOS</platformName>
+	</name>
+	
+	<name value="1" for="app" type="saucelabs-app">
+		<appiumVersion>1.5.3</appiumVersion>
+		<deviceName>Samsung Galaxy Tab 3 Emulator</deviceName>
+		<deviceOrientation>portrait</deviceOrientation>
+		<browserName></browserName>
+		<platformVersion>4.2</platformVersion>
+		<platformName>Android</platformName>
+		<app>sauce-storage:HealthCalculator.apk</app>
+	</name>
+
+	<name value="2" for="app" type="saucelabs-app">
+		<appiumVersion>1.5.3</appiumVersion>
+		<deviceName>Samsung Galaxy S4 Emulator</deviceName>
+		<deviceOrientation>portrait</deviceOrientation>
+		<browserName></browserName>
+		<platformVersion>4.4</platformVersion>
+		<platformName>Android</platformName>
+		<app>sauce-storage:HealthCalculator.apk</app>
+	</name>
+		
+	<name value="1" for="browser-device" type="saucelabs-device">
+		<appiumVersion>1.5.3</appiumVersion>
+		<deviceName>Samsung Galaxy S4 Emulator</deviceName>
+		<deviceOrientation>portrait</deviceOrientation>
+		<browserName>Browser</browserName>
+		<platformVersion>4.4</platformVersion>
+		<platformName>Android</platformName>
+	</name>
+	<name value="2" for="browser-device" type="saucelabs-device">
+		<appiumVersion>1.5.3</appiumVersion>
+		<deviceName>iPhone 6s Simulator</deviceName>
+		<deviceOrientation>portrait</deviceOrientation>
+		<platformVersion>9.1</platformVersion>
+		<platformName>iOS</platformName>
+		<browserName>Safari</browserName>
+	</name>
+	
+	<name value="2" for="browser" type="saucelabs">
+		<browserName>internet explorer</browserName>
+		<browserVersion>11</browserVersion>
+		<os>Windows 8.1</os>
+	</name>
+	<name value="1" for="browser" type="saucelabs">
+		<browserName>chrome</browserName>
+		<browserVersion>43.0</browserVersion>
+		<os>Windows XP</os>
+	</name>
+	
+	<name value="3" for="browser" type="saucelabs">
+		<browserName>safari</browserName>
+		<browserVersion>6</browserVersion>
+		<os>OSX 10.8</os>
+	</name>
+	<name value="4" for="browser" type="saucelabs">
+		<browserName>chrome</browserName>
+		<browserVersion>50.0</browserVersion>
+		<os>Windows 8</os>
+	</name>
+	<name value="5" for="browser" type="saucelabs">
+		<browserName>firefox</browserName>
+		<browserVersion>46</browserVersion>
+		<os>Windows 10</os>
+	</name>
+	<name value="6" for="browser" type="saucelabs">
+		<browserName>chrome</browserName>
+		<browserVersion>54.0</browserVersion>
+		<os>Windows 8.1</os>
+	</name>
+	<name value="7" for="browser" type="saucelabs">
+		<browserName>firefox</browserName>
+		<browserVersion>46</browserVersion>
+		<os>Windows 7</os>
+	</name>
+	<name value="8" for="browser" type="saucelabs">
+		<browserName>internet explorer</browserName>
+		<browserVersion>10.0</browserVersion>
+		<os>Windows 7</os>
+	</name>
+	<name value="9" for="browser" type="saucelabs">
+		<browserName>opera</browserName>
+		<browserVersion>12.12</browserVersion>
+		<os>Windows 7</os>
+	</name> 
+	<name value="9" for="browser" type="saucelabs">
+		<browserName>chrome</browserName>
+		<browserVersion>51.0</browserVersion>
+		<os>Windows 10</os>
+	</name>
+	<name value="10" for="browser" type="saucelabs">
+		<browserName>chrome</browserName>
+		<browserVersion>42.0</browserVersion>
+		<os>Linux</os>
+	</name>
+	<name value="1" for="browser" type="local">
+	    <browserName>chrome</browserName>
+		<browserVersion>55.2</browserVersion>
+		<os>Windows 7</os>
+		<execute>Yes</execute>
+	</name>
+	<name value="2" for="browser" type="local">
+		<browserName>firefox</browserName>
+		<browserVersion>46.0.1</browserVersion>
+		<os>Windows 7</os>
+		<execute>No</execute>
+	</name>
+	<name value="3" for="browser" type="local">
+		<browserName>internet explorer</browserName>
+		<browserVersion>11.0</browserVersion>
+		<os>Windows 7</os>
+		<execute>No</execute>
+	</name>
+</selenium-config>

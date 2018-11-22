@@ -1,0 +1,107 @@
+package com.accenture.aaft.selenium.library;
+
+import java.util.List;
+
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+import com.accenture.aaft.logger.CTLogger;
+import com.accenture.aaft.propertyreader.PropertyFileReader;
+import com.accenture.aaft.report.ExtentTestManager;
+//import com.accenture.aaft.selenium.driver.ExecuteScript;
+import com.accenture.aaft.selenium.library.utility.WaitForObjectExist;
+import com.accenture.aaft.selenium.library.utility.WebElementDetails;
+import com.relevantcodes.extentreports.ExtentTest;
+import com.relevantcodes.extentreports.LogStatus;
+
+/**
+ * Class is used to perform click action on UI
+ *
+ * @author vijay.venkatappa
+ *
+ */
+public class Click {
+
+  /**
+   * Method is used to perform click action on UI
+   *
+   * @param webDriver - represents WebDriver
+   * @param objectName - represents object name
+   * @param selector - represents selector type
+   * @param extentTest - represents ExtentTest
+   * @param controlName - represents control name
+   * @return status
+   */
+  public String click(WebDriver webDriver, String objectName, String selector, ExtentTest extentTest, String controlName) {
+
+	CTLogger.writeToLog("Click", " click() ", " method called");
+	PropertyFileReader propertyFileReader = new PropertyFileReader();
+	String status = "false";
+
+	try {
+
+	  WaitForObjectExist waitForObjectExist = new WaitForObjectExist();
+	  waitForObjectExist.waitForExistance(webDriver, objectName, selector);
+
+	  WebElementDetails webElementDetails = new WebElementDetails();
+	  List<WebElement> listElements = webElementDetails.getElements(webDriver, objectName, selector);
+
+	  WebElement txtField = listElements.get(0);
+
+	  if (txtField.isDisplayed()) {
+
+		if (txtField.getTagName().equalsIgnoreCase("input") || txtField.getTagName().equalsIgnoreCase("div")) {
+			((JavascriptExecutor) webDriver).executeScript("arguments[0].scrollIntoView(true);", txtField);
+			txtField.click();
+		} else {
+			String jScript = "var element = arguments[0]; element.click();"; 
+			JavascriptExecutor executor = (JavascriptExecutor) webDriver;
+			((JavascriptExecutor) webDriver).executeScript("arguments[0].scrollIntoView(true);", txtField);
+			executor.executeScript(jScript, txtField);
+		}
+
+		CTLogger.writeToLog("Click", " click() ", " button clicked -- path : " + objectName + " --> " + controlName);
+		status = "true";
+
+	  } else {
+
+		CTLogger.writeToLog("Click ", " click()", " Object not found" + " --> " + controlName);
+		status = "false";
+	  }
+
+	  if (status.equals("true")) {
+		/*
+		if (ExecuteScript.captureScreenPass) {
+		  extentTest.log(LogStatus.PASS, " clicked on " + controlName + " " + extentTest.addScreenCapture(ExtentTestManager.captureScreen(webDriver, propertyFileReader.getValue("IMAGE_PATH") + controlName)));
+		} else {
+		  extentTest.log(LogStatus.PASS, " clicked on " + controlName);
+		}
+		*/
+		extentTest.log(LogStatus.PASS, " Clicked on " + controlName);
+	  } else {
+
+		CTLogger.writeToLog("Click", "click()", " Object not found exeption thrown  --> path : " + objectName + " --> " + controlName);
+		extentTest.log(LogStatus.FAIL, extentTest.addScreenCapture(ExtentTestManager.captureScreen(webDriver, propertyFileReader.getValue("IMAGE_PATH") + controlName)));
+		webDriver.quit();
+		ExtentTestManager.setThreadStatus("f");
+	  }
+
+	} catch (Exception e) {
+	  try {
+		e.printStackTrace();
+		CTLogger.writeToLog("Click", "click()", " Object not found exeption thrown  --> path : " + objectName + " --> " + controlName);
+		status = "false";
+	  } finally {
+
+		extentTest.log(LogStatus.FAIL, extentTest.addScreenCapture(ExtentTestManager.captureScreen(webDriver, propertyFileReader.getValue("IMAGE_PATH") + controlName)));
+		webDriver.quit();
+		ExtentTestManager.setThreadStatus("f");
+	  }
+
+	}
+
+	return status;
+  }
+
+}

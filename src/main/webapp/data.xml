@@ -1,0 +1,26 @@
+<cats>
+	<cat id='1'>
+		<name>George</name>
+		<gender>male</gender>
+		<color>white-mustard</color>
+		<age>5 years</age>
+	</cat>
+	<cat id='2'>
+		<name>Pety</name>
+		<gender>female</gender>
+		<color>white-black-mustard</color>
+		<age>3</age>
+	</cat>
+	<cat id='3'>
+		<name>Alex</name>
+		<gender>male</gender>
+		<color>white-grey-black</color>
+		<age>3</age>
+	</cat>
+	<cat id='4'>
+		<name>Rex</name>
+		<gender>male</gender>
+		<color>white-mustard</color>
+		<age>2</age>
+	</cat>
+</cats>

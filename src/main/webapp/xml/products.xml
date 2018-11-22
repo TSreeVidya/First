@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<products>
+	<product>
+		<productId>P-22345</productId>
+		<price>2545</price>
+		<book>
+			<isbn>0321616936</isbn>
+			<title>Agile Testing</title>
+			<discount>5%</discount>
+		</book>
+	</product>
+	<product>
+		<productId>P-13245</productId>
+		<price>2239</price>
+		<book>
+			<isbn>0136083250</isbn>
+			<title>Clean code</title>
+			<discount>2%</discount>
+		</book>
+	</product>
+	<product>
+		<productId>P-52346</productId>
+		<price>2917</price>
+		<book>
+			<isbn>0321125215</isbn>
+			<title>Domain-Driven Design</title>
+			<discount>1%</discount>
+		</book>
+	</product>
+	<product>
+		<productId>P-78385</productId>
+		<price>3919</price>
+		<book>
+			<isbn>0321834577</isbn>
+			<title>Implementing Domain-Driven Design</title>
+			<discount>5%</discount>
+		</book>
+	</product>
+</products>
